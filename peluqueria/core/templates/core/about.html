@@ -1,0 +1,30 @@
+{% extends 'core/base.html' %}
+
+{% block title %}{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/mi.jpg' %}{% endblock %}
+
+{% block headers %}
+<br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/>
+{% endblock %}
+
+{% block content %}
+<div class="row"> 
+    <div class="col-lg-3 col-md-4 offset-lg-1">
+        <img class="img-fluid avatar" src="{% static 'core/img/logo.jpg' %}" alt="">
+    </div>
+    <div class="col-lg-7 col-md-8">
+        <h2 class="section-heading">Ana</h2>   
+        <p>.Atender y asesorar a los clientes sobre cambios de su imagen personal, técnicas o productos que pueden serles útiles para su cabello. </p>
+
+            <p>.Recepcionar, almacenar y distribuir material de peluquería, controlando su stock y preparar el local o salón y los equipos de trabajo manteniéndolos en condiciones óptimas para su funcionamiento.</p>
+
+                <p>.Comprobar el estado del cabello y del cuero cabelludo con los instrumentos adecuados de observación</p>
+
+                    <p>.Lavar y tratar el cabello y cuero cabelludo, previo análisis de los mismos.</p>
+
+                        <p>.Teñir y decolorar el tallo capilar seleccionando cosméticos, técnicas y procedimientos</p>
+    </div>
+</div>
+{% endblock %}
